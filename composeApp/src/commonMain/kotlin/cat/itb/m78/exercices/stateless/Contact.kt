@@ -48,7 +48,7 @@ fun Contact() {
                 fontSize = 3.em
             )
             Text(
-                text = "Kiramann",
+                text = "Kiraman",
                 color = Color.White,
                 fontSize = 3.em
             )

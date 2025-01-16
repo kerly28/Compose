@@ -6,6 +6,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import cat.itb.m78.exercices.State.BadExample
 import cat.itb.m78.exercices.State.GoodMorningAndNight
 import cat.itb.m78.exercices.State.SayHelloScreen
 import cat.itb.m78.exercices.stateless.Contact
@@ -18,6 +19,7 @@ import org.jetbrains.compose.reload.DevelopmentEntryPoint
 
 @Composable
 internal fun App() = AppTheme {
+    BadExample()
     //DEFAULT
     //Box(Modifier.fillMaxSize()){
         //Text("Your app goes here!", Modifier.align(Alignment.Center))
@@ -25,13 +27,13 @@ internal fun App() = AppTheme {
     //STATELESS
 
     //EX1
-    HelloWorld()
+    //HelloWorld()
     //EX2
-    Welcome()
+    //Welcome()
     //EX3
-    Resource()
+    //Resource()
     //EX4
-    ContactCard()
+    //ContactCard()
     //EX5
 
     //STATE
@@ -39,7 +41,7 @@ internal fun App() = AppTheme {
     //EX1
     //GoodMorningAndNight()
     //EX2
-    SayHelloScreen()
+    //SayHelloScreen()
     //EX3
 
     //EX4
